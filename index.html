@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC品牌设计 - 专注品牌咨询与设计服务</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary">DC</span>.design
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">首页</a></li>
+                 
+
+                    <li class="nav-item"><a class="nav-link" href="#contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">打造卓越品牌形象<br>引领空间设计未来</h1>
+                    <p class="lead mb-100"><a href="images/gallery/wechat/微信图片_2.jpg" class="text-decoration-none text-primary" target="_blank">联系微信</a></p>
+                    <a href="#contact" class="btn btn-primary btn-lg px-5">立即咨询</a>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center flex-column align-items-center">
+                    <img src="images/animation.gif" alt="品牌动画展示" class="img-fluid" style="max-height: 900px;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 更多案例画廊模态框 -->
+    <div class="modal fade" id="moreCasesGalleryModal" tabindex="-1" aria-labelledby="moreCasesGalleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="moreCasesGalleryModalLabel">更多设计案例</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="moreCasesGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="18" aria-label="Slide 19"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="19" aria-label="Slide 20"></button>
+                <button type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide-to="20" aria-label="Slide 21"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/gallery/More cases/部分作品01.jpg" class="d-block w-100" alt="更多案例1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品017.jpg" class="d-block w-100" alt="更多案例2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品02.jpg" class="d-block w-100" alt="更多案例3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品03.jpg" class="d-block w-100" alt="更多案例4">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品1.jpg" class="d-block w-100" alt="更多案例5">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品12.jpg" class="d-block w-100" alt="更多案例6">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品2.jpg" class="d-block w-100" alt="更多案例7">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品3.jpg" class="d-block w-100" alt="更多案例8">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品4.jpg" class="d-block w-100" alt="更多案例9">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品5.jpg" class="d-block w-100" alt="更多案例10">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品6.jpg" class="d-block w-100" alt="更多案例11">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品7.jpg" class="d-block w-100" alt="更多案例12">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分作品8.jpg" class="d-block w-100" alt="更多案例13">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片10.jpg" class="d-block w-100" alt="更多案例14">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片13.jpg" class="d-block w-100" alt="更多案例15">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片14.jpg" class="d-block w-100" alt="更多案例16">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片15.jpg" class="d-block w-100" alt="更多案例17">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片16.jpg" class="d-block w-100" alt="更多案例18">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片17.jpg" class="d-block w-100" alt="更多案例19">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片18.jpg" class="d-block w-100" alt="更多案例20">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/More cases/部分照片19.jpg" class="d-block w-100" alt="更多案例21">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#moreCasesGalleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 案例展示 -->
+<section id="services" class="py-15">
+        <div class="container">
+            <div class="text-center mb-10">
+                <h2 class="section-title">成功案例</h2>
+                <p class="section-subtitle">我们的作品荣获多项国际设计大奖</p>
+                <p class="lead mb-4"><a href="#" data-bs-toggle="modal" data-bs-target="#honorGalleryModal" class="text-decoration-none text-primary">荣誉时刻</a></p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-card rounded-lg overflow-hidden shadow-lg">
+                        <img src="images/case-1.svg" alt="品牌案例" class="case-img w-100 h-64 object-cover">
+                        <div class="case-info p-5">
+                            <h3 class="case-title mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#officeGalleryModal" class="text-decoration-none text-primary">办公室设计</a></h3>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-card rounded-lg overflow-hidden shadow-lg">
+                        <img src="images/case-2.svg" alt="品牌案例" class="case-img w-100 h-64 object-cover">
+                        <div class="case-info p-5">
+                            <h3 class="case-title mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#homeGalleryModal" class="text-decoration-none text-primary">家装设计</a></h3>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-card rounded-lg overflow-hidden shadow-lg">
+                        <img src="images/case-3.svg" alt="品牌案例" class="case-img w-100 h-64 object-cover">
+                        <div class="case-info p-5">
+                            <h3 class="case-title mb-2"><a href="#" data-bs-toggle="modal" data-bs-target="#architectureGalleryModal" class="text-decoration-none text-primary">建筑设计</a></h3>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#moreCasesGalleryModal">查看更多案例</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="services" class="py-15">
+        <div class="container">
+            <div class="text-center mb-10">
+               
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/about-us.svg" alt="DC品牌设计团队" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6 mt-8 mt-lg-0">
+                    <h3 class="mb-4">我们的故事</h3>
+                    <p class="mb-4">DC品牌设计成立于2006年，由业内知名设计总监合力创建。17年来，我们始终专注于空间设计领域，累计服务超过500家企业和个人</p>
+                    <p class="mb-4">我们拥有新一代策略美学设计团队，更懂新人群、新消费、新零售！通过不断学习、总结、改进，我们已形成一套完善的建筑空间设计理论。</p>
+                    <div class="row mt-6">
+                        <div class="col-md-3 text-center">
+                            <div class="counter-value" data-target="17">19</div>
+                            <p class="counter-label">行业经验(年)</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="counter-value" data-target="500">500</div>
+                            <p class="counter-label">服务客户</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="counter-value" data-target="30">20</div>
+                            <p class="counter-label">国际设计大奖</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉时刻画廊模态框 -->
+    <div class="modal fade" id="honorGalleryModal" tabindex="-1" aria-labelledby="honorGalleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="honorGalleryModalLabel">荣誉时刻</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="honorGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/gallery/Honor moment/100502_6766224e7e78a3333.jpg" class="d-block w-100" alt="荣誉时刻图片1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/122674491344489e.jpg" class="d-block w-100" alt="荣誉时刻图片2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/140.jpeg" class="d-block w-100" alt="荣誉时刻图片3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/2Nt_p0_mk0.jpg" class="d-block w-100" alt="荣誉时刻图片4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/2kltbcA.jpg" class="d-block w-100" alt="荣誉时刻图片5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/2wI70xEY4hf9Vc.jpg" class="d-block w-100" alt="荣誉时刻图片6">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/6f06.jpg" class="d-block w-100" alt="荣誉时刻图片7">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/gD_p0_mk0.jpg" class="d-block w-100" alt="荣誉时刻图片8">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/gallery/Honor moment/mk0.jpg" class="d-block w-100" alt="荣誉时刻图片9">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#honorGalleryCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    
+
+    <!-- 页脚 -->
+   <section id="services" class="py-15">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-8 mb-lg-0">
+                    <div class="footer-logo mb-4">
+                        <a href="images/hero-bg.svg" class="text-primary fs-2 fw-bold text-decoration-none" target="_blank">DCdesign</a>
+                    </div>
+                    <p class="footer-desc mb-6">专注设计咨询服务，助力企业实现品牌价值最大化</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon text-white/70 hover:text-primary mr-4"><i class="fab fa-weixin fa-lg"></i></a>
+                        <a href="#" class="social-icon text-white/70 hover:text-primary mr-4"><i class="fab fa-weibo fa-lg"></i></a>
+                        <a href="#" class="social-icon text-white/70 hover:text-primary mr-4"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="social-icon text-white/70 hover:text-primary"><i class="fab fa-behance fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-8 mb-md-0">
+                    <h4 class="footer-title mb-4">快速链接</h4>
+                    <ul class="footer-links">
+                        <li class="mb-2"><a href="#home" class="text-white/70 hover:text-primary">首页</a></li>
+                  
+                     
+                      
+                       
+                   
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-8 mb-md-0">
+                    <h4 class="footer-title mb-4">服务项目</h4>
+                    <ul class="footer-links">
+                        <li class="mb-2"><a href="#" class="text-white/70 hover:text-primary">建筑设计</a></li>
+                        <li class="mb-2"><a href="#" class="text-white/70 hover:text-primary">空间设计</a></li>
+                       
+                       
+               
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 id="contact" class="footer-title mb-4">联系我们</h4>
+                    <ul class="footer-contact">
+                        <li class="mb-3 d-flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
+                            <span class="text-white/70">上海市杨浦区国年路99号</span>
+                        </li>
+                        <li class="mb-3 d-flex items-center">
+                            <i class="fas fa-phone text-primary mr-3"></i>
+                            <span class="text-white/70">18978652604</span>
+                        </li>
+                        <li class="mb-3 d-flex items-center">
+                            <i class="fas fa-envelope text-primary mr-3"></i>
+                            <span class="text-white/70">75442340@QQ.com</span>
+                        </li>
+                        <li class="d-flex items-center">
+                            <i class="fas fa-clock text-primary mr-3"></i>
+                            <span class="text-white/70">微信号: A9HAO8</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-white/10 mt-10 pt-6 text-center">
+                <p class="text-white/50">&copy; 2025 DC.design. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- 办公室设计画廊 -->
+    <div class="modal fade" id="officeGalleryModal" tabindex="-1" aria-labelledby="officeGalleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="officeGalleryModalLabel">办公室设计案例</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="officeGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/gallery/office/CANTEEN.jpg" class="d-block w-100" alt="办公室设计1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/CK.jpg" class="d-block w-100" alt="办公室设计2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/Meeting Room.jpg" class="d-block w-100" alt="办公室设计3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/主管办公室一修改.jpg" class="d-block w-100" alt="办公室设计4">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/主管办公室二修改.jpg" class="d-block w-100" alt="办公室设计5">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/会议室 (3).jpg" class="d-block w-100" alt="办公室设计6">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/兆丰年柜台修改.jpg" class="d-block w-100" alt="办公室设计7">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/办公区一改.jpg" class="d-block w-100" alt="办公室设计8">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/办公区二修改.jpg" class="d-block w-100" alt="办公室设计9">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/office/理财区.jpg" class="d-block w-100" alt="办公室设计10">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#officeGalleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 家装设计画廊 -->
+    <div class="modal fade" id="homeGalleryModal" tabindex="-1" aria-labelledby="homeGalleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="homeGalleryModalLabel">家装设计案例</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="homeGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="1" aria-label="Slide a2"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/gallery/home/1.jpg" class="d-block w-100" alt="家装设计1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/7.jpg" class="d-block w-100" alt="家装设计2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/8.jpg" class="d-block w-100" alt="家装设计3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/c4.jpg" class="d-block w-100" alt="家装设计4">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/t1 bedroom修改OK.jpg" class="d-block w-100" alt="家装设计5">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/卧室.jpg" class="d-block w-100" alt="家装设计6">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/夏公馆客厅大图.jpg" class="d-block w-100" alt="家装设计7">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/客厅 (4).jpg" class="d-block w-100" alt="家装设计8">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/客厅SCOK.jpg" class="d-block w-100" alt="家装设计9">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/home/家庭起居室无灯OK.jpg" class="d-block w-100" alt="家装设计10">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#homeGalleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 建筑设计画廊 -->
+    <div class="modal fade" id="architectureGalleryModal" tabindex="-1" aria-labelledby="architectureGalleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="architectureGalleryModalLabel">建筑设计案例</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="architectureGalleryCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/gallery/architecture/050622旧房改造-夜景透视.jpg" class="d-block w-100" alt="建筑设计1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/070309中德医院-透视夜景01.拷贝.jpg" class="d-block w-100" alt="建筑设计2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/070420太原火车站鸟瞰夜景 .jpg" class="d-block w-100" alt="建筑设计3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/071220顶诚度假村-鸟瞰夜景.jpg" class="d-block w-100" alt="建筑设计4">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/080121百度城-鸟瞰夜景色.jpg" class="d-block w-100" alt="建筑设计5">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/080411金溪景观-鸟瞰夜景.jpg" class="d-block w-100" alt="建筑设计6">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/091105皮草城-夜景商业.jpg" class="d-block w-100" alt="建筑设计7">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/夜景 x.jpg" class="d-block w-100" alt="建筑设计8">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/gallery/architecture/鸟瞰夜景x.jpg" class="d-block w-100" alt="建筑设计9">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#architectureGalleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
