@@ -1,0 +1,175 @@
+body {
+    background-image: url('../images/starry-night.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.5;
+}
+
+.text-primary { color: #ffffff; }
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.hero-section {
+    height: 100vh;
+    background: transparent;
+    color: white;
+    padding-top: 80px;
+}
+
+.about-section {
+    background-color: transparent;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: white;
+    max-width: 700px;
+    margin: 0 auto 5rem;
+}
+
+.py-15 {
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+
+.py-5 {
+    padding-top: 1cm !important;
+    padding-bottom: 1cm !important;
+}
+
+.mb-3 {
+    margin-bottom: 0.5cm !important;
+}
+
+.p-2 {
+    padding: 0.5cm !important;
+}
+
+.mb-100 {
+    margin-bottom: 1cm !important;
+}
+
+.service-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    font-size: 2rem;
+}
+
+.case-card {
+    transition: all 0.3s ease;
+}
+
+.case-card:hover .case-info {
+    background-color: #333333;
+    color: white;
+}
+
+.case-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.team-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact-form, .contact-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.form-control {
+    background-color: #000000;
+    color: white;
+    border-color: white;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-links li a, .footer-contact li, .footer-desc, .social-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #cccccc;
+    transition: all 0.3s ease;
+}
+
+.counter-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.award-img {
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+.award-img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: white;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #333333;
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    .py-15 {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
